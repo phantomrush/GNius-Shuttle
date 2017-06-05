@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "GNius Shuttle",
+  "description": "Next shuttle schedule according to current time from Chandkheda and Palaj.",
+  "version": "1.0",
+    "icons": {"48":"shuttle48.png", "128":"shuttle128.png"},
+  "browser_action": {
+    "default_icon": {"48":"shuttle48.png", "128":"shuttle128.png"},
+    "default_popup": "shuttle.html",
+    "default_title": "Catch the next shuttle!"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}

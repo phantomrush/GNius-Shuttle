@@ -1,0 +1,82 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      #time,#shuttle-details{
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        overflow: hidden;
+      }
+      @import url('https://fonts.googleapis.com/css?family=Roboto');
+      body
+      {
+        align-content: center;
+        background-color: #283593;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 5px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+      }
+      #time
+      {
+        color: #ffffff;
+        background-color: #ff4086;
+        margin: 0px;
+        font-size: 18px;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+      .active-button
+      {
+        border: 2px solid #ffffff;
+      }
+      button
+      {
+        width: 100px;
+        padding: 5px;
+        color: #FFFFFF;
+        background-color: #ff4086;
+        border: 0px;
+        margin-top: 10px;
+      }
+      #title
+      {
+        padding: 10px;
+        font-size: 20px;
+      }
+      #place
+      {
+        font-size: 14px;
+        color: #ff4086;
+      }
+      #pdf
+      {
+      	margin-top: 5px;
+      }
+      #pdf-link,#pdf-link:visited,#pdf-link:active,#pdf-link:focus
+      {
+      	text-decoration: underline;
+      	color: #ffffff;
+      }
+    </style>
+  </head>
+  <body align = "center">
+    <div id = "time"></div>
+    <div id = "shuttle-details"></div>
+
+    <button id="palaj">Palaj</button>
+    <button id="chandkheda">Chandkheda</button>
+    <div id="pdf"><a id="pdf-link" href="shuttle.pdf" target="_blank">View entire Shuttle schedule</a></div>
+
+    <script src='./shuttle.js'></script>
+
+  </body>
+</html>
+
