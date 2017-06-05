@@ -21,9 +21,10 @@ The extension is part of a feature of Project GNius which was part of Dashboard 
 The Project GNius team consisted of Greeshma, Gowtham, Rushali and Nagasai.
 
 Any feedback, comments and queries for this chrome extension are welcome!
------------------------------------------------------------------------------------------------------------------------------------------
+
 
 HOW TO START USING GNius Shuttle?
+-----------------------------------------------------------------------------------------------------------------------------------------
 -Download zip file of this repository.
 -Unzip file in a suitable place.
 -Open the link chrome://extensions
